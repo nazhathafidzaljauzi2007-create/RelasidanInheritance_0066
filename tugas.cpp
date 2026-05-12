@@ -37,7 +37,7 @@ public:
     void toggleActivationMember() {
         cout << "Mengubah status aktivasi member..." << endl;
     }
-};
+};  
 
 class member : public user 
 {
