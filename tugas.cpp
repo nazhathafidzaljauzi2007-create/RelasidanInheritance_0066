@@ -54,7 +54,7 @@ public:
         cout << "Email : " << email << endl;
         cout << "Status: " << status << endl;
     }
-};
+};    
 
 int main() 
 {
