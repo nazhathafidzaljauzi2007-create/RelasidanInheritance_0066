@@ -24,7 +24,7 @@ public:
     }
 };
 
-int user::globalId = 0;
+int user::globalId = 0; 
 
 class admin : public user {
 public:
