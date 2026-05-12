@@ -2,6 +2,7 @@
 #define ANAK_H
 
 #include <string>
+#include <iostream>
 using namespace std;
 
 // membuat class anak di file header anak.h
@@ -17,4 +18,8 @@ public:
         cout << "Anak \"" << nama << "\" ada \n";
     }
     
+    ~anak() 
+    {
+        cout << "Anak \"" << nama << "\" tidak ada \n";
+    }
 }
